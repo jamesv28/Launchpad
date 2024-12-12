@@ -99,7 +99,7 @@ class _PadState extends State<Pad> {
           colorCenter = Colors.white;
           colorOutline = Colors.white;
         });
-        await Future.delayed(const Duration(milliseconds: 500));
+        await Future.delayed(const Duration(milliseconds: 250));
         setState(() {
           colorCenter = widget.colorCenter;
           colorOutline = widget.colorOutline;
